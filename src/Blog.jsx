@@ -12,7 +12,7 @@ const Blog = () => {
 
         {
           type: "heading",
-          content: "This is my Dog"
+          content: "This is my Cat"
         },
         {
           type: "text",
