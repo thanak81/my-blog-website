@@ -6,7 +6,7 @@ const Blog = () => {
     const post = {
       title: "My favorite animals",
       date: "March 15, 2024",
-      author: "Thanak's Blog",
+      author: "Thanak Mech",
       readTime: "5 min read",
       tags: ["Animals", "Pet", "Cat", "Dog"],
       headerImage: "./thanak.jpg",
@@ -35,7 +35,7 @@ const Blog = () => {
         {
           type: "image",
           src: "./dog.jpg",
-          caption: "Morning cuddles with my cat"
+          caption: "Morning cuddles with my dog"
         },
         {
           type: "text",
@@ -43,7 +43,7 @@ const Blog = () => {
         },
         {
           type: "heading",
-          content: "My dog behavior"
+          content: "My pets behavior"
         },
         {
           type: "text",
@@ -52,7 +52,7 @@ const Blog = () => {
         {
           type: "image",
           src: "./cat&dog.webp",
-          caption: "Perfectly curled up for naptime"
+          caption: "My cat and dog chilling"
         }
       ]
     };
