@@ -7,53 +7,51 @@ const Blog = () => {
       author: "Thanak's Blog",
       readTime: "5 min read",
       tags: ["Animals", "Pet", "Cat", "Dog"],
-      headerImage: "/api/placeholder/1200/600",
-      content: [
-
+      headerImage: "./thanak.jpg",
+      content : [
         {
           type: "heading",
           content: "This is my Dog"
         },
         {
           type: "text",
-          content: "Components are the building blocks of any React application. They're like LEGO pieces that you can combine to build complex interfaces."
+          content: "Meet my adorable furry friend! She's a playful companion who loves to chase laser pointers and cuddle on lazy afternoons. Her favorite spot is the sunny windowsill where she watches birds."
         },
         {
           type: "image",
           src: "./cat.avif",
-          caption: "React components hierarchy example"
+          caption: "My cat lounging in her favorite spot"
         },
-        
         {
-            type: "heading",
-            content: "This is my Cat"
-          },
+          type: "heading",
+          content: "This is my Dog"
+        },
         {
           type: "text",
-          content: "State management in React is what makes your applications dynamic and interactive. React's state management system allows components to maintain and update their data without requiring a page refresh."
+          content: "Every morning starts with her gentle purrs and eager meows for breakfast. She has this cute habit of tapping my face with her paw when she decides it's time for me to wake up and give her attention."
         },
         {
           type: "image",
           src: "./dog.jpg",
-          caption: "State management flow diagram"
+          caption: "Morning cuddles with my cat"
         },
         {
           type: "text",
-          content: "Props are how components communicate with each other. They allow you to pass data from parent components to child components, creating a one-way data flow that makes your applications more predictable and easier to debug."
+          content: "She's quite the acrobat too! You should see her leaping from furniture to furniture, showing off her impressive agility. Despite her athletic abilities, she's also a complete softie who loves belly rubs."
         },
         {
           type: "heading",
-          content: "The Virtual DOM"
+          content: "My dog behavior"
         },
         {
           type: "text",
-          content: "The Virtual DOM is another innovative feature that sets React apart. Instead of directly manipulating the browser's DOM, React creates a lightweight copy in memory."
+          content: "When it comes to nap time, she has the most adorable habit of curling up into a perfect little croissant shape. Her favorite napping spots rotate between my laptop keyboard, fresh laundry, and any cardboard box she can squeeze into."
         },
         {
-            type: "image",
-            src: "./dog.jpg",
-            caption: "State management flow diagram"
-          },
+          type: "image",
+          src: "./cat&dog.webp",
+          caption: "Perfectly curled up for naptime"
+        }
       ]
     };
   
@@ -146,7 +144,7 @@ const Blog = () => {
             {/* Author Bio */}
             <div className="mt-12 pt-8 border-t">
               <div className="flex items-center gap-4">
-                <div className="w-16 h-16 bg-gray-200 rounded-full"></div>
+                <img src='./thanak.jpg' className="w-16 h-16 bg-gray-200 rounded-full"/>
                 <div>
                   <h3 className="font-semibold text-gray-900">Written by {post.author}</h3>
                   <p className="text-gray-600 mt-1">
