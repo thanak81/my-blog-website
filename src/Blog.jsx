@@ -13,7 +13,7 @@ const Blog = () => {
       content : [
         {
           type: "heading",
-          content: "This is my Cat fuckk"
+          content: "This is my Catttt meow"
         },
         {
           type: "text",
