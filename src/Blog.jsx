@@ -4,55 +4,72 @@ import Sidebar from './Sidebar';
 
 const Blog = () => {
     const post = {
-      title: "My favorite animals",
+      title: "Top Cat Collection Blog",
       date: "March 15, 2024",
       author: "Thanak Mech",
       readTime: "5 min read",
-      tags: ["Animals", "Pet", "Cat", "Dog"],
+      tags: ["Car", "Sport Car", "Lambo", "Race Car"],
       headerImage: "./thanak.jpg",
-      content : [
+     content: [
         {
           type: "heading",
-          content: "This is my Car"
+          content: "My Dream Sports Car Collection"
         },
         {
           type: "text",
-          content: "Meet my adorable furry friend! She's a playful companion who loves to chase laser pointers and cuddle on lazy afternoons. Her favorite spot is the sunny windowsill where she watches birds."
+          content: "Welcome to my personal garage showcase! I've always been fascinated by the perfect blend of engineering and artistry that goes into creating these magnificent machines. From everyday drivers to track-focused beasts, each car has its own unique character and story."
         },
         {
           type: "image",
-          src: "./cat.avif",
-          caption: "My cat lounging in her favorite spot"
+          src: "./topcar1.jpg",
+          caption: "The elegant lines of a modern luxury sports car"
         },
         {
           type: "heading",
-          content: "This is my Dog"
+          content: "Track-Ready Performance Machines"
         },
         {
           type: "text",
-          content: "Every morning starts with her gentle purrs and eager meows for breakfast. She has this cute habit of tapping my face with her paw when she decides it's time for me to wake up and give her attention."
+          content: "There's something magical about track-focused sports cars. The raw power, the precise handling, the way they connect you to the road - it's an experience that nothing else can match. These machines are built for one purpose: pure driving pleasure."
         },
         {
           type: "image",
-          src: "./dog.jpg",
-          caption: "Morning cuddles with my dog"
+          src: "./topcar2.avif",
+          caption: "A track-focused sports car in its natural habitat"
         },
         {
           type: "text",
-          content: "She's quite the acrobat too! You should see her leaping from furniture to furniture, showing off her impressive agility. Despite her athletic abilities, she's also a complete softie who loves belly rubs."
+          content: "The symphony of a high-revving engine, the g-forces pushing you into your seat during acceleration, the precise feedback through the steering wheel - these cars deliver an intoxicating cocktail of sensations that make every drive memorable."
         },
         {
           type: "heading",
-          content: "My pets behavior"
+          content: "The Ultimate: Formula 1 Technology"
         },
         {
           type: "text",
-          content: "When it comes to nap time, she has the most adorable habit of curling up into a perfect little croissant shape. Her favorite napping spots rotate between my laptop keyboard, fresh laundry, and any cardboard box she can squeeze into."
+          content: "At the pinnacle of automotive engineering, we find Formula 1 cars. These aren't just vehicles; they're rolling laboratories where cutting-edge technology meets extreme performance. Every component is optimized for maximum performance, pushing the boundaries of what's possible on four wheels."
         },
         {
           type: "image",
-          src: "./cat&dog.webp",
-          caption: "My cat and dog chilling"
+          src: "./topcar3.jpg",
+          caption: "A modern Formula 1 car showcasing aerodynamic excellence"
+        },
+        {
+          type: "text",
+          content: "The aerodynamics alone are a testament to human ingenuity - generating enough downforce to theoretically drive upside down on a ceiling at high speeds. The carbon fiber construction, hybrid powertrains, and advanced electronics all work in perfect harmony to achieve lap times that seemed impossible just a decade ago."
+        },
+        {
+          type: "heading",
+          content: "Evolution of Speed"
+        },
+        {
+          type: "text",
+          content: "From the iconic classics that established the sports car genre to the modern hypercars pushing the boundaries of performance, the evolution of these machines tells a fascinating story of human innovation and our endless pursuit of speed and excellence."
+        },
+        {
+          type: "image",
+          src: "./topcar4.jpg",
+          caption: "A modern hypercar representing the future of automotive performance"
         }
       ]
     };
@@ -63,7 +80,7 @@ const Blog = () => {
         <header className="border-b">
           <div className="max-w-7xl mx-auto px-4 py-8">
             <h1 className="text-3xl font-bold text-gray-900">Thanak's Blog</h1>
-            <p className="mt-2 text-gray-600">Update on my animals i owned</p>
+            <p className="mt-2 text-gray-600">Update on my favorite car</p>
           </div>
         </header>
   
