@@ -13,7 +13,7 @@ const Blog = () => {
      content: [
         {
           type: "heading",
-          content: "My Dream Sports Cat Collection"
+          content: "My Dream Sports Car Collection"
         },
         {
           type: "text",
