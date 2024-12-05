@@ -6,17 +6,12 @@ const Sidebar = ({ post }) => {
   
   // Recent posts data (you can make this dynamic later)
   const recentPosts = [
-    "Porsche 911 GT3 RS Review",
-    "Ferrari LaFerrari vs McLaren P1",
-    "BMW M3: Evolution Through Generations",
-    "Inside the Bugatti Factory",
-    "Mercedes-AMG One: F1 for the Road",
-    "Lamborghini Aventador: The Last Pure V12",
-    "Aston Martin Valkyrie Track Test",
-    "Gordon Murray T.50: Engineering Masterpiece",
-    "Koenigsegg Gemera: Four-Seat Hypercar",
-    "Pagani Huayra R: Ultimate Track Weapon"
-];
+    "My favorite animals",
+    "Pet care tips",
+    "Weekend adventures with pets",
+    "Training your dog",
+    "Cat behavior guide"
+  ];
 
   // Archives data (you can make this dynamic later)
   const archives = [

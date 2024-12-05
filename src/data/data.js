@@ -6,51 +6,51 @@ const post = {
     // tags: ["Animals", "Pet", "Cat", "Dog"],
     tags: ["Car", "Sport Car", "Lambo", "Race Car"],
     headerImage: "./thanak.jpg",
-    // content : [
-    //   {
-    //     type: "heading",
-    //     content: "This is my Car"
-    //   },
-    //   {
-    //     type: "text",
-    //     content: "Meet my adorable furry friend! She's a playful companion who loves to chase laser pointers and cuddle on lazy afternoons. Her favorite spot is the sunny windowsill where she watches birds."
-    //   },
-    //   {
-    //     type: "image",
-    //     src: "./cat.avif",
-    //     caption: "My cat lounging in her favorite spot"
-    //   },
-    //   {
-    //     type: "heading",
-    //     content: "This is my Dog"
-    //   },
-    //   {
-    //     type: "text",
-    //     content: "Every morning starts with her gentle purrs and eager meows for breakfast. She has this cute habit of tapping my face with her paw when she decides it's time for me to wake up and give her attention."
-    //   },
-    //   {
-    //     type: "image",
-    //     src: "./dog.jpg",
-    //     caption: "Morning cuddles with my dog"
-    //   },
-    //   {
-    //     type: "text",
-    //     content: "She's quite the acrobat too! You should see her leaping from furniture to furniture, showing off her impressive agility. Despite her athletic abilities, she's also a complete softie who loves belly rubs."
-    //   },
-    //   {
-    //     type: "heading",
-    //     content: "My pets behavior"
-    //   },
-    //   {
-    //     type: "text",
-    //     content: "When it comes to nap time, she has the most adorable habit of curling up into a perfect little croissant shape. Her favorite napping spots rotate between my laptop keyboard, fresh laundry, and any cardboard box she can squeeze into."
-    //   },
-    //   {
-    //     type: "image",
-    //     src: "./cat&dog.webp",
-    //     caption: "My cat and dog chilling"
-    //   }
-    // ],
+    content : [
+      {
+        type: "heading",
+        content: "This is my Car"
+      },
+      {
+        type: "text",
+        content: "Meet my adorable furry friend! She's a playful companion who loves to chase laser pointers and cuddle on lazy afternoons. Her favorite spot is the sunny windowsill where she watches birds."
+      },
+      {
+        type: "image",
+        src: "./cat.avif",
+        caption: "My cat lounging in her favorite spot"
+      },
+      {
+        type: "heading",
+        content: "This is my Dog"
+      },
+      {
+        type: "text",
+        content: "Every morning starts with her gentle purrs and eager meows for breakfast. She has this cute habit of tapping my face with her paw when she decides it's time for me to wake up and give her attention."
+      },
+      {
+        type: "image",
+        src: "./dog.jpg",
+        caption: "Morning cuddles with my dog"
+      },
+      {
+        type: "text",
+        content: "She's quite the acrobat too! You should see her leaping from furniture to furniture, showing off her impressive agility. Despite her athletic abilities, she's also a complete softie who loves belly rubs."
+      },
+      {
+        type: "heading",
+        content: "My pets behavior"
+      },
+      {
+        type: "text",
+        content: "When it comes to nap time, she has the most adorable habit of curling up into a perfect little croissant shape. Her favorite napping spots rotate between my laptop keyboard, fresh laundry, and any cardboard box she can squeeze into."
+      },
+      {
+        type: "image",
+        src: "./cat&dog.webp",
+        caption: "My cat and dog chilling"
+      }
+    ],
    content: [
       {
         type: "heading",
